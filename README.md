@@ -16,7 +16,7 @@ This repository was created as an exercise in dockerizing a PostgresSQL database
 
 ## Instructions
 
-Run dbSetup.sh on your terminal (Navigate to the file and enter `./dbSetup.sh`). It will setup and run a container from the official PostgreSQL Docker image. After that, the script will run a command in the container to login to PostgreSQL's CLI client 'psql' to create the table ´cool_tools´. You can use this table to store neat online tools of your choice.
+Run dbSetup.sh on your terminal (Navigate to the file and enter `./dbSetup.sh`). It will setup and run a container from the official PostgreSQL Docker image. After that, the script will run a command in the container to login to the CLI client 'psql' to create the table `cool_tools`. You can use this table to store neat online tools of your choice.
 
 The table will initially be empty. You can access your database by running `docker exec -it postgres-db bash`, which will open a BASH terminal on your container. From there, you can login to PostgreSQL with ´psql -U postgres´. Once logged in, try adding an entry to your ´cool_tools´ table using the following template:
 
