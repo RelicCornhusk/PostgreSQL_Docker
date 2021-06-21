@@ -41,5 +41,5 @@ INSERT INTO cool_tools(name, url) values('KeePassXC', 'keepassxc.org');
 
 To see if it worked, do a simple query by running
 ```
-SELECT * FROM cool_tools
+SELECT * FROM cool_tools;
 ```
